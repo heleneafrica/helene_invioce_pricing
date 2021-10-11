@@ -48,6 +48,7 @@ h6 h2{
     margin: 0 auto;
     border: solid orange;
     justify-content: center;
+    height: 15vh;
 }
 
 .fa{
@@ -55,3 +56,33 @@ h6 h2{
     transform: translateX(-100%);
 }
 
+.mobile {
+    display: none;
+}
+
+.desktop{
+    display: block;
+}
+
+@media(max-width:999px){
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .a2{
+        transform: translateY(-13%);
+    }
+
+    .pricing_detail{
+        display: block;
+        width: 100%;
+    }
+
+    .try-invioce{
+        display: block;
+    }
+}
