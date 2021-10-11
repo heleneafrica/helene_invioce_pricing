@@ -1,0 +1,57 @@
+.a1{
+    display: flex;
+    align-items: center;
+    border: solid red;
+    height: 70vh;
+}
+
+.content_price{
+    justify-content: center;
+    margin: 0 auto;
+}
+
+form select{
+    border: none;
+    padding: 1px;
+    width: 100%;
+}
+
+form select:hover{
+    border:solid 1px green;
+}
+
+.a2{
+    border:solid sienna;
+    transform:translateY(-45%);
+
+}
+
+.pricing_detail{
+    display: flex;
+}
+
+
+h6 h2{
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.try-invioce{
+    border: solid purple;
+}
+
+.try-button{
+
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border: solid orange;
+    justify-content: center;
+}
+
+.fa{
+    position: absolute;
+    transform: translateX(-100%);
+}
+
