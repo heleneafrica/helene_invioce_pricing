@@ -1,3 +1,7 @@
+body{
+
+    background-color: whitesmoke;
+}
 .a1{
     display: flex;
     align-items: center;
