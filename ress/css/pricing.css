@@ -1,12 +1,14 @@
 body{
     font-size: 18px !important;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .a1{
     display: flex;
     align-items: center;
     /* border: solid red; */
-    height: 55vh;
+    height: 50vh;
 }
 
 .content_price{
@@ -35,11 +37,6 @@ form select:hover{
 }
 
 
-h6 h2{
-    font-size: 18px;
-    margin: 5px;
-    padding: 5px;
-}
 
 /* .try-invioce{
     border: solid purple;
@@ -88,5 +85,11 @@ h6 h2{
 
     .try-invioce{
         display: block;
+        text-align: center;
+        box-shadow: 5px 5px 5px 5px;
+        width: 90%;
+    }
+    .a1{
+        top: 60vh;
     }
 }
