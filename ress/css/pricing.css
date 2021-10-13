@@ -1,8 +1,12 @@
+body{
+    font-size: 18px !important;
+}
+
 .a1{
     display: flex;
     align-items: center;
-    border: solid red;
-    height: 70vh;
+    /* border: solid red; */
+    height: 55vh;
 }
 
 .content_price{
@@ -21,8 +25,8 @@ form select:hover{
 }
 
 .a2{
-    border:solid sienna;
-    transform:translateY(-45%);
+    /* border:solid sienna; */
+    transform:translateY(-25%);
 
 }
 
@@ -37,24 +41,24 @@ h6 h2{
     padding: 5px;
 }
 
-.try-invioce{
+/* .try-invioce{
     border: solid purple;
-}
+} */
 
 .try-button{
 
     display: flex;
     align-items: center;
     margin: 0 auto;
-    border: solid orange;
+    /* border: solid orange; */
     justify-content: center;
     height: 15vh;
 }
 
-.fa{
+/* .fa{
     position: absolute;
     transform: translateX(-100%);
-}
+} */
 
 .mobile {
     display: none;
