@@ -1,14 +1,8 @@
-body{
-    font-size: 18px !important;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .a1{
     display: flex;
     align-items: center;
     /* border: solid red; */
-    height: 50vh;
+    height: 60vh;
 }
 
 .content_price{
@@ -28,7 +22,7 @@ form select:hover{
 
 .a2{
     /* border:solid sienna; */
-    transform:translateY(-25%);
+    transform:translateY(-50%);
 
 }
 
@@ -89,7 +83,5 @@ form select:hover{
         box-shadow: 5px 5px 5px 5px;
         width: 90%;
     }
-    .a1{
-        top: 60vh;
-    }
+  
 }
