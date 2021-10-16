@@ -6,7 +6,7 @@ body{
     display: flex;
     align-items: center;
     /* border: solid red; */
-    height: 60vh;
+    height: 50vh;
 }
 
 .content_price{
