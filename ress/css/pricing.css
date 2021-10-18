@@ -136,8 +136,8 @@ form select:hover{
     } */
 
     .pricing_detail{
-        display: block;
-        width: 100%;
+        display: block !important;
+        width: 100% !important;
     }
 
     .try-invioce{
@@ -149,6 +149,10 @@ form select:hover{
 
     .try-wrapper{
         display: block;
+    }
+    .pricing_box{
+        width: 100%;
+       
     }
   
 }
