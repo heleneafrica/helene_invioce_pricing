@@ -27,7 +27,7 @@ header{
 
 .pricing_box{
     width: 400px;
-    height: 350px;
+    height: 400px;
 }
 
 .pricing_box:hover{
@@ -152,6 +152,7 @@ form select:hover{
     }
     .pricing_box{
         width: 100%;
+        
        
     }
   
