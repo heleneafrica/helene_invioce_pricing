@@ -1,10 +1,13 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
-body{
-    background: #FAFAFA;
+
+html{
+    scroll-behavior:smooth;
 }
+
 .menu_bar{
     display: flex;
     align-items: center;
@@ -13,7 +16,9 @@ body{
 }
 
 header{
-    border-radius: 20px;
+    border-radius: 0px;
+    background: #FAFAFA;
+
 }
 
 .menu_bar ul{
@@ -59,8 +64,9 @@ a:hover{
 .a1{
     display: flex;
     align-items: center;
-    /* border: solid red; */
     height: 30vh;
+    width: 100%;
+   
 }
 
 .content_price{
@@ -78,11 +84,6 @@ form select:hover{
     border:solid 1px green;
 }
 
-.a2{
-    /* border:solid sienna; */
-    /* transform:translateY(-50%); */
-
-}
 
 .pricing_detail{
     display: flex;
@@ -92,7 +93,7 @@ form select:hover{
 
 
 .try-invioce{
-    background: #121212;
+    background: rgb(38,3,106);
 }
 
 .try-button{
@@ -120,6 +121,8 @@ form select:hover{
 
 .try-wrapper{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media(max-width:999px){
@@ -137,7 +140,7 @@ form select:hover{
 
     .pricing_detail{
         display: block !important;
-        width: 100% !important;
+        width: 100% !important; 
     }
 
     .try-invioce{
