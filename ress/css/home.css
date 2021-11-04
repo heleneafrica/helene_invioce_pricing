@@ -11,6 +11,13 @@ body{
 a{
     text-decoration: none;
 }
+
+.landing{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 90vh;
+}
 .banna-info {
     height: 65vh;
     width: 60%;
@@ -116,6 +123,7 @@ a{
     background-color: red;
     padding: 5px;
     border-radius: 5px;
+    color: white;
 }
 .ky{
     background-color: black;
@@ -127,6 +135,7 @@ a{
     background-color: blue;
     padding: 5px;
     border-radius: 5px;
+    color: white;
 }
 .ind{
     background-color: orange;
@@ -157,6 +166,12 @@ a{
                 padding: 0px;
                 margin-top: 0px;
                 height: auto;
+            }
+
+            .landing{
+                display: block;
+                height: auto;
+                margin-top: 20px;
             }
 
             #phone{
