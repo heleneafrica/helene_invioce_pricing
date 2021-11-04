@@ -32,7 +32,7 @@ header{
 
 .pricing_box{
     width: 400px;
-    height: 350px;
+    height: 400px;
 }
 
 .pricing_box:hover{
@@ -64,9 +64,14 @@ a:hover{
 .a1{
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     height: 30vh;
     width: 100%;
    
+=======
+    /* border: solid red; */
+    height: 40vh;
+>>>>>>> 7f439f744015b9eab39eb888f78b6a8eec658ad8
 }
 
 .content_price{
@@ -155,6 +160,7 @@ form select:hover{
     }
     .pricing_box{
         width: 100%;
+        
        
     }
   
